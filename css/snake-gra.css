@@ -1,0 +1,26 @@
+body{
+    background-color: #75c1bf;
+}
+#header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 50px;
+    width: 40%;
+    margin: auto;
+    box-shadow: 10px 10px 8px blue;
+    margin-bottom: 40px;
+}
+a{
+    text-align: center;
+}
+center{
+    font-size: 140%;
+    font-weight: 900;
+}
+center a{
+    font-weight: 500;
+}
+canvas #canvas{
+    border: 1px solid black;
+}
