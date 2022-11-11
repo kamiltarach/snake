@@ -4,4 +4,4 @@ Docelowo przewidziane sa takie funkcje:
 - logowanie sie
 - rejestrowanie sie
 - granie
-- inforamcje
+- inforamcje o grze
