@@ -1,2 +1,7 @@
 # Snake
-projekt gry snake z mozliwoscia logowania sie
+Projekt zawiera gre snake, na stronie z mozliwoscia logowania sie.
+Docelowo przewidziane sa takie funkcje:
+- logowanie sie
+- rejestrowanie sie
+- granie
+- inforamcje
