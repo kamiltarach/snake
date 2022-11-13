@@ -97,7 +97,7 @@
                 {
                     $itworks = false;
                     $_SESSION['e_nick'] = "Istnieje już gracz o takim Nicku! Wybierz inny!";
-                }
+                } 
         
                 if($itworks==true){
                     //Hura, udana walidacja, wszystkie testy zaliczone
