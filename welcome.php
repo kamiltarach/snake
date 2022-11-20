@@ -1,11 +1,5 @@
 <?php
     session_start();
-    
-    if(isset($_SESSION['udanarejestracja']))
-    {
-        header('Location: zaloguj.php');
-        exit();
-    }
 
     //Usuwanie zmiennych pamiętających wartości wpisane do formularza
 	if (isset($_SESSION['fr_nick'])) unset($_SESSION['fr_nick']);
