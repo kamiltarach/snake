@@ -9,16 +9,19 @@ body{
     width: 40%;
     margin: auto;
     box-shadow: 10px 10px 8px blue;
-    margin-bottom: 40px;
 }
 form{
+    width: 60%;
     text-align: center;
     font-size: 150%;
+    box-shadow: 16px 16px 32px blue
+    -16px -16px 32px blue;
 }
 a{
     text-align: center;
 }
-#inputBox{
-    box-shadow: 16px 16px 32px #357573
-    -16px -16px 32px #2b6967;
+form #inputBox{
+    width: 60%;
+    box-shadow: 16px 16px 32px blue
+    -16px -16px 32px blue;
 }

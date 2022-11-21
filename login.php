@@ -22,8 +22,7 @@
     </div>
     <!--<h1 style="text-align:center;border:1px solid black;width:40%;margin:auto;">Strona w trakcie tworzenia</h1>-->
     <br><br>
-    <div id="inputBox">
-    <form method="post" action="zaloguj.php">
+    <form method="post" action="zaloguj.php" id="inputBox">
             Nickname:<br><input type="text" name="login"><br><br>
             Hasło:<br><input type="password" name="haslo"><br><br>
             <center style="font-size:80%;">
@@ -33,7 +32,6 @@
             </center>
             <br><input type="submit" value="Zaloguj się">
     </form>
-    </div>
     <a href="index.php" style="text-decoration:none;text-align:center;color:blue;font-size:200%;">
     <h3>Strona główna</h3></a>
 </body>
