@@ -105,7 +105,6 @@
                     VALUES (NULL, '$nick', '$email', '$haslo_hash', '$haslo_hash', 12)";
                     if($polaczenie -> query($new_user))
                     {
-                        $_SESSION['udanarejestracja']=true;
                         header('Location: welcome.php');
                     }else{
                         echo $polaczenie->error;
