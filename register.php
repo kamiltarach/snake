@@ -18,7 +18,7 @@
         if(ctype_alnum($nick)==false)
         {
             $itworks = false;
-            $_SESSION['e_nick'] = "Nick moze skladac sie tylko z liter i cyfr (bez polskich znakow)";
+            $_SESSION['e_nick'] = "Nick moze skladac sie tylko z liter i cyfr (bez polskich znakow!";
         }
 
         //sprawdz poprawnosc email
@@ -102,7 +102,7 @@
                 if($itworks==true){
                     //Hura, udana walidacja, wszystkie testy zaliczone
                     $new_user = "INSERT INTO urzytkownicy (id, nickname, email, haslo1, haslo2, max)
-                    VALUES (NULL, '$nick', '$email', '$haslo_hash', '$haslo_hash', NULL)";
+                    VALUES (NULL, '$nick', '$email', '$haslo_hash', '$haslo_hash', 12)";
                     if($polaczenie -> query($new_user))
                     {
                         $_SESSION['udanarejestracja']=true;
