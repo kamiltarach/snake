@@ -18,3 +18,7 @@ form{
 a{
     text-align: center;
 }
+#inputBox{
+    box-shadow: 16px 16px 32px #357573
+    -16px -16px 32px #2b6967;
+}
