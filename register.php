@@ -108,7 +108,7 @@
                         $_SESSION['udanarejestracja']=true;
                         header('Location: welcome.php');
                     }else{
-                        echo "nie dziala";
+                        echo $polaczenie->error;
                     }
                 }
                 $polaczenie->close();
