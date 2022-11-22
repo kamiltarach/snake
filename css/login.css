@@ -26,9 +26,9 @@ h3{
     flex-direction: column;
     gap: 35px;
     border-radius: 15px;
-    background: #e3e3e3;
-    box-shadow: 16px 16px 32px #c8c8c8,
-    -16px -16px 32px #fefefe;
+    background: #a9caf5;
+    box-shadow: 16px 16px 32px #30d3e9,
+    -16px -16px 32px #87a8f0;
 }
 .inputBox{
     position: relative;
