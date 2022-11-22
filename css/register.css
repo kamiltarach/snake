@@ -23,7 +23,7 @@ h3{
     background: #75c1bf;
     min-height: 100vh;
 }
-form{
+.card form{
     display: flex;
     text-align: center;
     justify-content: center;
