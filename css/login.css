@@ -17,7 +17,7 @@ h3{
     background: #e3e3e3;
     min-height: 100vh;
 }
-.card{
+form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +27,8 @@ h3{
     gap: 35px;
     border-radius: 15px;
     background: #e3e3e3;
+    box-shadow: 16px 16px 32px #c8c8c8,
+    -16px -16px 32px #fefefe;
 }
 .inputBox{
     position: relative;
