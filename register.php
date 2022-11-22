@@ -131,75 +131,51 @@
     <title>Snake - zarejestruj się</title>
 </head>
 <body>
-    <div id="header">
-        <h1>Zarejestruj się do gry Snake</h1><br>
-    </div>
-    <h3 style="text-align:center;border:1px solid black;width:20%;margin:auto;">Strona w trakcie tworzenia</h3>
-    <br>
-    <form method="post">
-        Nickname:<br><input type="text" name="nick" value="<?php
-        if (isset($_SESSION['fr_nick']))
-        {
-            echo $_SESSION['fr_nick'];
-            unset($_SESSION['fr_nick']);
-        }
-        ?>"><br>
-        <?php
-            if(isset($_SESSION['e_nick'])){
-                echo '<div class="error">'.$_SESSION['e_nick'].'</div>';
-                unset($_SESSION['e_nick']);
-            }
-        ?>
-        E-mail<br><input type="text" name="email" value="<?php
-        if (isset($_SESSION['fr_email']))
-        {
-            echo $_SESSION['fr_email'];
-            unset($_SESSION['fr_email']);
-        }
-        ?>"><br>
-        <?php
-            if(isset($_SESSION['e_email'])){
-                echo '<div class="error">'.$_SESSION['e_email'].'</div>';
-                unset($_SESSION['e_email']);
-            }
-        ?>
-        Hasło:<br><input type="password" name="haslo1" value="<?php
-        if (isset($_SESSION['fr_haslo1']))
-        {
-            echo $_SESSION['fr_haslo1'];
-            unset($_SESSION['fr_haslo1']);
-        }
-        ?>"><br>
-        <?php
-            if(isset($_SESSION['e_haslo'])){
-                echo '<div class="error">'.$_SESSION['e_haslo'].'</div>';
-                unset($_SESSION['e_haslo']);
-            }
-        ?>
-        Powtórz hasło:<br><input type="password" name="haslo2" value="<?php
-        if (isset($_SESSION['fr_haslo2']))
-        {
-            echo $_SESSION['fr_haslo2'];
-            unset($_SESSION['fr_haslo2']);
-        }
-        ?>"><br><br>
-        <label>
+<div class="container">
+    <div class="card"><form method="post">
+        <h3>Zarejestruj się do gry snake</h3>
+        <div class="inputBox">
+            <input type="text" name="nick" required="required" value="<?php
+            if (isset($_SESSION['fr_nick'])){echo $_SESSION['fr_nick'];unset($_SESSION['fr_nick']);}?>">
+            <span>Nickname</span>
+            <br><?php if(isset($_SESSION['e_nick'])){echo '<div class="error">'.$_SESSION['e_nick'].'</div>';unset($_SESSION['e_nick']);}?>
+        </div>
+
+        <div class="inputBox">
+            <input type="text" name="email" required="required" value="<?php 
+            if (isset($_SESSION['fr_email'])){echo $_SESSION['fr_email'];unset($_SESSION['fr_email']);}?>">
+            <span>Email</span>
+            <br><?php if(isset($_SESSION['e_email'])){echo '<div class="error">'.$_SESSION['e_email'].'</div>';unset($_SESSION['e_email']);}?>
+        </div>
+
+        <div class="inputBox">
+            <input type="password" name="haslo1" required="required" value="<?php
+            if (isset($_SESSION['fr_haslo1'])){echo $_SESSION['fr_haslo1'];unset($_SESSION['fr_haslo1']);}?>">
+            <span>Hasło</span>
+            <br><?php if(isset($_SESSION['e_haslo'])){echo '<div class="error">'.$_SESSION['e_haslo'].'</div>';unset($_SESSION['e_haslo']);}?>
+        </div>
+
+        <div class="inputBox">
+            <input type="password" name="haslo2" value="<?php
+            if (isset($_SESSION['fr_haslo2'])){echo $_SESSION['fr_haslo2'];unset($_SESSION['fr_haslo2']);}?>">
+            <span>Powtórz hasło</span>
+            <br><br>
+        </div>
+        
+        <div class="inputBox"><label>
             <input type="checkbox" name="regulamin" checked <?php
-			if (isset($_SESSION['fr_regulamin']))
-			{
-				echo "checked";
-				unset($_SESSION['fr_regulamin']);
-			}
-				?>>Akcjeptuje Regulamin<br>
-        </label>
-        <a href="regulamin.php" style="text-decoration:none;color:blue;font-size:60%;">Regulamin</a>
-        <?php
-            if(isset($_SESSION['e_regulamin'])){
-                echo '<div class="error">'.$_SESSION['e_regulamin'].'</div>';
-                unset($_SESSION['e_regulamin']);
-            }
-        ?>
-        <br><input type="submit" value="Zarejestruj się">
-    <br><a href="index.php" style="text-decoration:none; color:blue;"><h3>Strona główna</h3></a>
+			if (isset($_SESSION['fr_regulamin'])){echo "checked";unset($_SESSION['fr_regulamin']);}?>>Akcjeptuje Regulamin<br>
+        </div></label>
+
+        <div class="inputBox">
+            <a href="regulamin.php" style="text-decoration:none;color:blue;font-size:60%;">Regulamin</a>
+            <?php if(isset($_SESSION['e_regulamin'])){echo '<div class="error">'.$_SESSION['e_regulamin'].'</div>';unset($_SESSION['e_regulamin']);}?>
+        </div>
+
+        <button>Zarejestruj się</button>
+
+    <a href="index.php" style="text-decoration:none; color:blue;"><h3>Strona główna</h3></a>
+</div>
+</div>
 </body>
 </html>
