@@ -17,26 +17,23 @@
     <title>Snake - zaloguj się</title>
 </head>
 <body>
-    <div class="container">
-        <form method="post" action="zaloguj.php">
-            <div class="card">
+<div class="container">
+        <div class="card">
+            <h3>Sing Up</h3>
+            <form method="post" action="zaloguj.php">
                 <div class="inputBox">
-                    <input type="text" name="login"><span>Nickname</span><br>
+                    <input type="text" required="required">
+                    <span>Username</span>
                 </div>
                 <div class="inputBox">
-                    <input type="password" name="haslo"><span>Hasło</span><br>
+                    <input type="password" required="required">
+                    <span>Password</span>
                 </div>
-                <center style="font-size:80%;">
-                    <?php
-                        if(isset($_SESSION['blad']))echo $_SESSION['blad'];
-                    ?>
-                </center>
-                
-                <br><input type="submit" value="Zaloguj się">
-            </div>
-        </form>
-        <a href="index.php" style="text-decoration:none;text-align:center;color:blue;font-size:200%;">
-        <h3>Strona główna</h3></a>
+                <button>Enter</button>
+            </form>
+        </div>
     </div>
+<a href="index.php" style="text-decoration:none;text-align:center;color:blue;font-size:200%;">
+<h3>Strona główna</h3></a>
 </body>
 </html>

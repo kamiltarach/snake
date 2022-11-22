@@ -1,31 +1,20 @@
-body{
-    background-color: #75c1bf;
-}
-#header{
-    color: white;
-    background-color: black;
-    text-align: center;
-    border-radius: 50px;
-    width: 40%;
-    margin: auto;
-    box-shadow: 10px 10px 8px blue;
-}
-form{
-    margin: auto;
-    width: 60%;
-    text-align: center;
-    font-size: 150%;
-    box-shadow: 16px 16px 32px blue
-    -16px -16px 32px blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 a{
     text-align: center;
+}
+h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #75c1bf;
+    background: #e3e3e3;
     min-height: 100vh;
 }
 .card{
@@ -40,4 +29,69 @@ a{
     background: #e3e3e3;
     box-shadow: 16px 16px 32px #c8c8c8,
     -16px -16px 32px #fefefe;
+}
+.inputBox{
+    position: relative;
+    width: 250px;
+}
+.inputBox input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    transition: 0.1s;
+}
+.inputBox span{
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+    margin-left: 10px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+}
+/*
+Dodatkowe opcje animacji
+*/
+.inputBox input:valid~span,
+.inputBox input:focus~span{
+    transform: translateX(113px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #000;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus{
+    border: 2px solid #000;
+}
+
+button{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+button:hover{
+    background-color: #000;
+    color: white;
 }
