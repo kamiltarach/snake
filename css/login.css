@@ -9,26 +9,29 @@ a{
 h3{
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
+    color: rgb(27, 27, 27);
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e3e3e3;
+    background: #75c1bf;
     min-height: 100vh;
 }
 form{
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    min-height: 350px;
+    min-height: 400px;
     width: 300px;
     flex-direction: column;
     gap: 35px;
     border-radius: 15px;
-    background: #e3e3e3;
-    box-shadow: 16px 16px 32px #c8c8c8,
-    -16px -16px 32px #fefefe;
+    background: #75c1bf;
+    box-shadow: 16px 16px 32px #518785,
+    -16px -16px 32px #bae0df;
 }
 .inputBox{
     position: relative;
@@ -39,11 +42,11 @@ form{
     padding: 10px;
     outline: none;
     border: none;
-    color: #000;
+    color: rgb(27, 27, 27);
     font-size: 1em;
     background: transparent;
-    border-bottom: 2px solid #000;
-    border-left: 2px solid #000;
+    border-bottom: 2px solid #3a605f;
+    border-left: 2px solid #3a605f;
     transition: 0.1s;
 }
 .inputBox span{
@@ -55,7 +58,7 @@ form{
     padding: 10px;
     pointer-events: none;
     font-size: 12px;
-    color: #000;
+    color: rgb(27, 27, 27);
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 3px;
@@ -68,7 +71,7 @@ Dodatkowe opcje animacji
     transform: translateX(113px) translateY(-15px);
     font-size: 0.8em;
     padding: 5px 10px;
-    background: #000;
+    background: #3a605f;
     letter-spacing: 0.2em;
     color: #fff;
     border: 2px;
@@ -76,14 +79,14 @@ Dodatkowe opcje animacji
 
 .inputBox input:valid,
 .inputBox input:focus{
-    border: 2px solid #000;
+    border: 2px solid #3a605f;
 }
 
 button{
     height: 45px;
     width: 100px;
     border-radius: 5px;
-    border: 2px solid #000;
+    border: 2px solid #3a605f;
     cursor: pointer;
     background-color: transparent;
     transition: 0.5s;
@@ -92,6 +95,6 @@ button{
     letter-spacing: 2px;
 }
 button:hover{
-    background-color: #000;
+    background-color: #3a605f;
     color: white;
 }
