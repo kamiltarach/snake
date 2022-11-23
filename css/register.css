@@ -21,7 +21,7 @@ h3{
     justify-content: center;
     align-items: center;
     background: #75c1bf;
-    min-height: 100vh;
+    min-height: 150vh;
 }
 .card form{
     display: flex;
@@ -29,9 +29,9 @@ h3{
     justify-content: center;
     align-items: center;
     min-height: 400px;
-    width: 300px;
+    width: 400px;
     flex-direction: column;
-    gap: 35px;
+    gap: 15px;
     border-radius: 15px;
     background: #75c1bf;
     box-shadow: 16px 16px 32px #518785,
@@ -39,7 +39,7 @@ h3{
 }
 .inputBox{
     position: relative;
-    width: 250px;
+    width: 300px;
 }
 .inputBox input{
     width: 100%;
