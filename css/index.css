@@ -10,10 +10,15 @@ body{
     margin: auto;
     margin-bottom: 40px;
 }
-#demo{
-    float: left;
-    width: 32%;
-    text-align: center;
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	float: left;
 }
 h1.link{
     width: 65%;
@@ -33,11 +38,6 @@ h1.link:hover{
 img{
     float: left;
     width: 32%;
-}
-#login{
-    float: left;
-    width: 32%;
-    text-align: center;
 }
 a{
     text-decoration: none;
