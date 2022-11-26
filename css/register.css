@@ -15,21 +15,23 @@ h3{
     letter-spacing: 2px;
     text-align: center;
     color: rgb(27, 27, 27);
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     background: #75c1bf;
-    min-height: 150vh;
+    min-height: 100vh;
 }
 .card form{
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
-    width: 400px;
+    min-height: 450px;
+    width: 450px;
     flex-direction: column;
     gap: 15px;
     border-radius: 15px;
@@ -88,7 +90,7 @@ Dodatkowe opcje animacji
 
 button{
     height: 45px;
-    width: 100px;
+    width: 200px;
     border-radius: 5px;
     border: 2px solid #3a605f;
     cursor: pointer;
