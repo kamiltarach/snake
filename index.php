@@ -11,15 +11,17 @@
 <body>
     <div id="header">
         <h2>Witaj, chcesz zagrać w Snake'a?</h2>
+        <ul id="login">
+            <li class="link"><a href="login.php"><h3>Zaloguj się</h3></a></li>
+        </ul>
+        <ul id="login">
+            <li class="link"><a href="register.php"><h3>Zarejestruj się</h3></a></li>
+        </ul>
+        <img id="img1" src="snake1.png" alt="snake">
     </div>
-        <ul id="login">
-            <li class="link"><a href="login.php"><h1>Zaloguj się</h1></a></li>
-        </ul>
-        <ul id="login">
-            <li class="link"><a href="register.php"><h1>Zarejestruj się</h1></a></li>
-        </ul>
     <div id="poczatek">
-        <p id='p-snake-info'>
+    <h3>informacje o grze</h3>
+        <p>
         Gracz kontroluje długie i cienkie stworzenie, podobne do węża,
         które porusza się po obramowanej planszy zbierając jedzenie (lub inne przedmioty), <br>
         próbując nie uderzyć własną głową o ściany otaczające planszę gry, a także o część własnego ciała. <br>
@@ -28,9 +30,7 @@
         Gracz nie może zatrzymać węża, gdy gra jest w toku. Wąż może składać jaja, 
         które są dodatkowymi przeszkodami.
         </p>
-        <p id="img"><img src="wonż.png"></p>
-        <p id="img"><img src="wonż.png"></p>
+        <img id="img" src="wonż.png">
     </div>
-    <img id="img1" src="snake1.png" alt="snake">
 </body>
 </html>
