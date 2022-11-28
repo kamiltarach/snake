@@ -4,31 +4,40 @@ body{
 #header{
     color: white;
     background-color: black;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     width: 100%;
     margin: auto;
     margin-bottom: 40px;
 }
+#login{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+}
+#login ul{
+    background-color: black;
+}
 ul, ul li {
 	display: block;
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	margin: auto;
+	padding: auto;
+    text-align: center;
 }
 
 ul li {
 	float: left;
+    text-align: center;
 }
 h1.link{
-    width: 65%;
     padding: 10px;
     margin: auto;
-    border: solid 1px black;
     border-radius: 20px;
     transition-property: font-size;
     transition-duration: 1s;
-    text-shadow: 2px 2px 2px blue;
 }
 h1.link:hover{
     color: blue;
@@ -36,7 +45,7 @@ h1.link:hover{
     font-size: 220%;
 }
 img{
-    float: left;
+    clear: both;
     width: 32%;
 }
 a{

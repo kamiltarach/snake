@@ -12,12 +12,12 @@
     <div id="header">
         <h2>Witaj, chcesz zagrać w Snake'a?</h2>
     </div>    
-    <img src="snake1.png">
     <div id="login">
         <ul>
             <li><a href="login.php"><h1 class="link">Zaloguj się</h1></a></li>
             <li><a href="register.php"><h1 class="link">Zarejestruj<br>się</h1></a></li>
         </ul>
     </div>
+    <img src="snake1.png">
 </body>
 </html>
