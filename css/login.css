@@ -24,10 +24,10 @@ h3{
     text-align: center;
     justify-content: center;
     align-items: center;
-    min-height: 450px;
+    min-height: 400px;
     width: 400px;
     flex-direction: column;
-    gap: 35px;
+    gap: 40px;
     border-radius: 15px;
     background: #75c1bf;
     box-shadow: 16px 16px 32px #518785,
@@ -54,6 +54,7 @@ h3{
     position: absolute;
     left: 0;
     transform: translateY(-4px);
+    transform: translateX(20px);
     margin-left: 10px;
     padding: 10px;
     pointer-events: none;
