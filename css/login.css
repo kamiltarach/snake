@@ -19,7 +19,7 @@ h3{
     background: #75c1bf;
     min-height: 100vh;
 }
-.card{
+.card form{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -27,7 +27,7 @@ h3{
     min-height: 400px;
     width: 400px;
     flex-direction: column;
-    gap: 40px;
+    gap: 35px;
     border-radius: 15px;
     background: #75c1bf;
     box-shadow: 16px 16px 32px #518785,
@@ -54,7 +54,6 @@ h3{
     position: absolute;
     left: 0;
     transform: translateY(-4px);
-    transform: translateX(20px);
     margin-left: 10px;
     padding: 10px;
     pointer-events: none;
@@ -85,7 +84,7 @@ Dodatkowe opcje animacji
 
 button{
     height: 45px;
-    width: 100px;
+    width: 200px;
     border-radius: 5px;
     border: 2px solid #3a605f;
     cursor: pointer;
