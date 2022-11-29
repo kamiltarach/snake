@@ -11,14 +11,16 @@
 <body>
     <div id="header">
         <h2>Witaj, chcesz zagrać w Snake'a?</h2>
-        <ul id="login">
+        <div id="login">
+        <ul>
             <li class="link"><a href="login.php"><h3>Zaloguj się</h3></a></li>
         </ul>
-        <ul id="login">
+        <ul>
             <li class="link"><a href="register.php"><h3>Zarejestruj się</h3></a></li>
         </ul>
-        <img id="img1" src="snake1.png" alt="snake">
+        </div>
     </div>
+    <img id="img1" src="snake1.png" alt="snake">
     <div id="poczatek">
     <h3>informacje o grze</h3>
         <p>

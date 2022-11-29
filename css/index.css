@@ -5,7 +5,7 @@ body{
     color: white;
     background-color: black;
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     text-align: center;
     width: 100%;
 }
@@ -13,17 +13,16 @@ body{
     text-transform: uppercase;
     font-size: 130%;
 }
-ul #login{
+#login{
     height: 100px;
+    text-align: center;
     width: 50%;
     float: left;
     color: white;
-    border: 1px silid white;
-    text-align: center;
+    border: 2px silid white;
 }
-ul, ul li {
+li{
 	list-style: none;
-    text-align: center;
 }
 li.link{
     float: left;
@@ -35,6 +34,7 @@ li.link{
     cursor: pointer;
     background-color: transparent;
     transition: 0.5s;
+    text-transform: font-size;
     font-size: 10px;
     letter-spacing: 2px;
     font-size: 110%;
@@ -42,6 +42,7 @@ li.link{
 li.link:hover{
     color: black;
     background-color: white;
+    font-size: 105%;
 }
 #img1{
     float: right;
