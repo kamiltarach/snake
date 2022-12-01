@@ -53,7 +53,7 @@ function draw() {//funkcja pokazujaca
     }
 
     canvasContext.font = "20px Arial"//wynik
-    canvasContext.fillStyle = "#00FF42"//wynik
+    canvasContext.fillStyle = "lightblue"//wynik
     canvasContext.fillText("Wynik: " + (snake.tail.length -1),canvas.width - 120 , 28)//wynik
     createRect(apple.x, apple.y, apple.size, apple.size, apple.color)
 }

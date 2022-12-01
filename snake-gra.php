@@ -18,19 +18,21 @@
 </head>
 <body>
     <div id="header">
-        <h1>Witaj w grze Snake</h1><br>
+        <h2>Witaj w grze Snake</h2>
     </div>
-        <!--<h1 style="text-align:center;border:1px solid black;width:40%;margin:auto;">Strona w trakcie tworzenia</h1>-->
-    <br><br>
-    <center>
+    <div id="info">
         <?php
-            echo 'Witaj '.$_SESSION['user'].'!&nbsp&nbsp | &nbsp&nbsp';
-            echo 'E-mail: '.$_SESSION['email'].'&nbsp&nbsp | &nbsp&nbsp';
+            echo 'Witaj '.$_SESSION['user'].'<br>';
+            echo 'E-mail: '.$_SESSION['email'].'<br>';
             echo 'Wynik gry: '.$_SESSION['max'];
             echo '<br><br><a href="logout.php" style="text-decoration:none; color:blue;">Wyloguj się</a>';
+        ?>
+    </div>
+    <div id="game">
+        <?php
             echo '<br><br><canvas id="canvas" style="border-radius:20px;" width="400px" height="400px"></canvas>';
             echo '<script type="text/javascript" src="js/snake.js"></script>';
         ?>
-    </center>
+    </div>
 </body>
 </html>
