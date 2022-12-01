@@ -37,12 +37,12 @@ li.link{
     text-transform: font-size;
     font-size: 10px;
     letter-spacing: 2px;
-    font-size: 110%;
+    font-size: 105%;
 }
 li.link:hover{
     color: black;
     background-color: white;
-    font-size: 105%;
+    font-size: 115%;
 }
 #img1{
     float: right;
