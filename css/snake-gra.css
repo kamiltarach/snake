@@ -23,6 +23,7 @@ body{
 #game{
     float: left;
     width: 50%;
+    padding-top: -20px;
 }
 canvas #canvas{
     border: 1px solid black;
