@@ -22,17 +22,20 @@
     </div>
     <div id="info">
         <?php
-            echo 'Witaj '.$_SESSION['user'].'<br>';
-            echo 'E-mail: '.$_SESSION['email'].'<br>';
-            echo 'Wynik gry: '.$_SESSION['max'];
-            echo '<br><br><a href="logout.php" style="text-decoration:none; color:blue;">Wyloguj się</a>';
+            echo 'Witaj '.$_SESSION['user'].',<br><br>';
+            echo 'E-mail: '.$_SESSION['email'].'<br><br>';
+            echo 'Życzymy żebyś zdobył jak najwiecej punktów!';
+            echo '<br><br><a href="logout.php" style="text-decoration:none; color:blue; text-transform: uppercase;">Wyloguj się</a>';
         ?>
     </div>
     <div id="game">
         <?php
-            echo '<br><br><canvas id="canvas" style="border-radius:20px;" width="400px" height="400px"></canvas>';
+            echo '<br><br><canvas id="canvas" style="border-radius:20px;" width="500px" height="500px"></canvas>';
             echo '<script type="text/javascript" src="js/snake.js"></script>';
         ?>
     </div>
+    <footer>
+        <p>Autor strony: Kamil Tarach | kamiltarach.kt@gmail.com</p>
+    </footer>
 </body>
 </html>
