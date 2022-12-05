@@ -16,22 +16,23 @@ body{
 #info{
     float: left;
     font-weight: 600;
-    width: 40%;
+    width: 60%;
     margin: auto;
     font-size: 150%;
-    padding-top: 100px;
+    padding-top: 130px;
     text-align: center;
 }
 #game{
     float: left;
-    width: 60%;
+    width: 40%;
     margin: auto;
-    padding-bottom: 130px;
+    padding-bottom: 40px;
 }
 canvas #canvas{ 
     border-radius:20px;
     border: 2px white solid;
     width: 500px; 
+    margin: auto;
     height: 500px;
     box-shadow: 16px 16px 32px #518785,
     -16px -16px 32px #bae0df;
