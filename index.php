@@ -34,5 +34,8 @@
         </p>
         <img id="img" src="wonż.png">
     </div>
+    <footer>
+        <p>Autor strony: Kamil Tarach | kamiltarach.kt@gmail.com</p>
+    </footer>
 </body>
 </html>

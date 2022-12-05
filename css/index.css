@@ -76,4 +76,16 @@ a{
 }
 body{
     background-color: #75c1bf;
+}footer{
+    clear: both;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: right;
+}
+footer p{
+    padding-right: 60px;
+    font-size: 150%;
 }
