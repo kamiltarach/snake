@@ -81,12 +81,11 @@ footer{
     clear: both;
     width: 100%;
     background-color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: white;
     text-align: right;
 }
 footer p{
-    padding-right: 60px;
-    font-size: 150%;
+    padding-right: 40px;
 }
