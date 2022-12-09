@@ -11,7 +11,7 @@ body{
     font-family: rubik,sans-serif;
 }#header h2{
     text-transform: uppercase;
-    font-size: 200%;
+    font-size: 230%;
 }
 #info{
     float: left;
@@ -46,5 +46,5 @@ footer{
 }
 footer p{
     padding-right: 60px;
-    font-size: 150%;
+    font-size: 130%;
 }
