@@ -77,3 +77,15 @@ a{
 body{
     background-color: #75c1bf;
 }
+footer{
+    clear: both;
+    width: 100%;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-align: right;
+}
+footer p{
+    padding-right: 40px;
+}

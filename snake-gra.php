@@ -30,7 +30,7 @@
     </div>
     <div id="game">
         <?php
-            echo '<br><br><canvas id="canvas" style="border-radius:20px;" width="500px" height="500px"></canvas>';
+            echo '<br><br><canvas id="canvas" style="border-radius:20px;" width="400px" height="400px"></canvas>';
             echo '<script type="text/javascript" src="js/snake.js"></script>';
         ?>
     </div>
