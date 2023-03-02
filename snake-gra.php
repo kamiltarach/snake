@@ -24,7 +24,7 @@
         <p>Witaj <?$_SESSION['user']?></p><br>
         <p>Email <?$_SESSION['email']?></p><br>
         <p>Życzymy żebyś zdobył jak najwięcej punktów</p><br><br>
-        <p style="tet-decoration:none;color:blue;text-transform:uppercase;"><a href="logout.php" >Wyjoguj się!</a></p>
+        <p><a href="logout.php" style="text-decoration:none;color:blue;text-transform:uppercase;">Wyjoguj się!</a></p>
     </div>
     <div id="game">
         <br><br>

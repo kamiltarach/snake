@@ -12,7 +12,7 @@
     <div id="header">
         <h2>Witaj, chcesz zagrać w Snake'a?</h2>
         <div id="login">
-        <ul>
+        <ul class="nav">
             <li class="link"><a href="login.php"><h3>Zaloguj się</h3></a></li>
         </ul>
         <ul>

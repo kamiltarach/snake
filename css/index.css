@@ -39,7 +39,7 @@ li.link{
     letter-spacing: 2px;
     font-size: 105%;
 }
-li.link:hover{
+li.link:hover, li.link:active, li.link:visited{
     color: black;
     background-color: white;
     font-size: 115%;
