@@ -76,7 +76,7 @@
             else
             {
                 //czy mail juz istnieje?
-                $rezultat = $polaczenie->query("SELECT id FROM urzytkownicy WHERE email='$email'");
+                $rezultat = $polaczenie->query("SELECT id FROM uzytkownicy WHERE email='$email'");
                 
                 if(!$rezultat) throw new Exception($polaczenie->error);
 
@@ -88,7 +88,7 @@
                 }
 
                 //czy ten nick jest jiz urzywany?
-                $rezultat = $polaczenie->query("SELECT id FROM urzytkownicy WHERE nickname='$nick'");
+                $rezultat = $polaczenie->query("SELECT id FROM uzytkownicy WHERE nickname='$nick'");
                 
                 if(!$rezultat) throw new Exception($polaczenie->error);
 
@@ -101,7 +101,7 @@
         
                 if($itworks==true){
                     //Hura, udana walidacja, wszystkie testy zaliczone
-                    $new_user = "INSERT INTO urzytkownicy (id, nickname, email, haslo1, haslo2, max)
+                    $new_user = "INSERT INTO uzytkownicy (id, nickname, email, haslo1, haslo2, max)
                     VALUES (NULL, '$nick', '$email', '$haslo_hash', '$haslo_hash', 12)";
                     if($polaczenie -> query($new_user))
                     {

@@ -21,7 +21,7 @@
         $login = htmlentities($login, ENT_QUOTES, "UTF-8");
 
         if($rezultat = $polaczenie->query(
-            sprintf("SELECT * FROM urzytkownicy WHERE nickname='%s'",
+            sprintf("SELECT * FROM uzytkownicy WHERE nickname='%s'",
             mysqli_real_escape_string($polaczenie, $login)))){
             $ile_userow = $rezultat->num_rows;
             if($ile_userow>0)

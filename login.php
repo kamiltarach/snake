@@ -28,11 +28,11 @@
                 <input type="password" name="haslo" required="required">
                 <span>Haslo</span>
             </div>
-            <center style="font-size:80%;">
+            <div class="e-center" style="text-align:center;font-size:80%;">
                 <?php
                     if(isset($_SESSION['blad']))echo $_SESSION['blad'];
                 ?>
-            </center>
+            </div>
             <button>Zaloguj</button>
             <a href="index.php" style="text-decoration:none;text-align:center;color:blue;">
             <h3>Strona główna</h3></a>
